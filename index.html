@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- h stands for hreader -->
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <span>Hello World</span>
+    <p>The &lt;p&gt; tag defines a paragraph.
+        <!-- this will never print a new line -->
+        Browsers automatically add a single blank line before and after each &lt;p&gt; element.</p>
+    <!-- ul stands for unordered list, print bullets -->
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <!-- ol stands for ordered list, print list in number -->
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <!-- dl stands for description list, print indented list -->
+    <dl>
+        <dt>coffee</dt>
+        <dd>americano</dd>
+        <dd>latte</dd>
+        <dd>black coffee</dd>
+    </dl>
+    <!-- a stands for anchor -->
+    <!-- https://www.w3schools.com/tags/tag_a.asp -->
+    <a href="https://google.com" target="_blank">mesin pencari</a>
+
+    <p>The &lt;p&gt; tag defines a paragraph. <br>
+        <!-- this will print a new line, compare with ln 18 -->
+        <!-- mark is used to highlight, strong is used to bold texts -->
+        Browsers automatically add <mark>a single blank line</mark> <strong>before</strong> and <strong>after</strong> each &lt;p&gt; element.
+    </p>
+    <!-- img tag doesn't require closer, filled inside the tag -->
+    <img src="/home/yurham/Documents/webdev/html/asset/img/20220711-SpiralHill_EN-GB1015987948_UHD.jpg" alt="spiral hill">
+    <!-- table: tr stands for table row, th stands for table header, td stands for table data -->
+    <table border="solid">
+        <tr>
+            <th>Nomor</th>
+            <th colspan="2">Nama</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Yurham</td>
+            <td>Apep</td>
+            <td>Surabaya</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mpuss</td>
+            <td>miaw</td>
+            <td rowspan="2">Tuban</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>albert</td>
+            <td>Schrodinger</td>
+        </tr>
+    </table>
+    <form action="">
+        <label for="">Name</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="">Address</label>
+        <br>
+        <textarea name="addres" id="address" cols="30" rows="5"></textarea>
+        <br>
+        <label for="">Phone</label>
+        <br>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <label for="">Date</label>
+        <br>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="">Password</label>
+        <br>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="">Jenis Kelamin</label>
+        <br>
+        <select name="jenis-kelamin" id="jenis-kelamin">
+            <option value="">Laki-laki</option>
+            <option value="">Perempuan</option>
+        </select>
+
+        <!-- <input type="button"> <input type="checkbox"> <input type="color"> <input type="date"> <input type="datetime-local"> <input type="email"> <input type="file"> <input type="hidden"> <input type="image"> <input type="month"> <input type="number"> <input type="password"> <input type="radio"> <input type="range"> <input type="reset"> <input type="search"> <input type="submit"> <input type="tel"> <input type="text"> <input type="time"> <input type="url"> <input type="week"> --> 
+    </form>
+</body>
+</html>
